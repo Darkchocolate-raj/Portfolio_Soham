@@ -763,3 +763,81 @@ section {
         opacity: 1;
     }
 }
+
+@media screen and (max-width:600px){
+    .home-content h1 {
+        font-size: 20px;
+    }
+    .home-content h3{
+        font-size: 15px;
+    }
+    .home-content p{
+        font-size: 10px;
+    }
+    .navbar a{
+        font-size: 18px;
+    }
+    .home-sci a{
+        width: 28px;
+        height: 28px;
+    }
+    .home{
+        background-size: contain;
+        background-position: 80% 14%;
+    }
+    .about-img img{
+        position: absolute;
+        top: 52%;
+        left: 0%;
+    }
+    .about-text h4{
+        margin: 15px -100px 30px;
+    }
+    .about-text h2{
+        font-size: 45px;
+        margin: 15px -43px 30px;
+    }
+    .about-text p{
+        font-size: 15px;
+        margin-left: -87px;
+    }
+    .heading1{
+        margin-right: 47px;
+        margin-left: -152px;
+        font-size: 20px;
+    }
+    .Technical-bars{
+        margin-right: 47px;
+        margin-left: -152px;
+    }
+    .radial-bar .text{
+        left: -196%;
+        bottom: 58px;
+    }
+    .radial-bars {
+        
+        display: block;
+        margin-right: 47px;
+        margin-left: -51px;
+    }
+    .radial-bars .radial-bar{
+        margin-bottom: -57px;
+    }
+    .contact-text h2{
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    .sub-title{
+        font-size: 45px;
+        margin-top:30px ;
+    }
+    .navbar a{
+        font-size: 11px;
+    }
+    .contact-text p{
+        font-size: 10px;
+    }
+    .btn-box{
+        margin-left: 116px;
+    }
+}
